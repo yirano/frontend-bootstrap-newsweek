@@ -1,0 +1,45 @@
+
+body {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 1435px;
+  background-color: #f4f5f6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  margin: 0;
+}
+
+.banner {
+  background-color: red;
+  height: 92px;
+  overflow: hidden;
+}
+
+.banner img {
+  position: relative;
+  width: 100%;
+  height: 127px;
+  top: -13px;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid rgb(192, 192, 192);
+  margin: 10px;
+  margin-left: -7px;
+  padding: 0 20px;
+} 
+
