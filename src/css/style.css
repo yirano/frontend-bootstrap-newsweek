@@ -90,7 +90,7 @@ header {
   padding-bottom: 30px;
 }
 
-.featured-story-img, .top-story-img {
+.featured-story-img, .top-story-img, .editor-pick-img, .featured-slideshows-img {
   position: relative;
 }
 
@@ -101,7 +101,7 @@ header {
   object-fit: cover;
 }
 
-.featured-story-category a, .top-story-category a {
+.featured-story-category a, .top-story-category a, .editor-pick-category a, .featured-slideshows-num a {
   position: absolute;
   bottom: 0;
   padding: 8px 15px 9px;
@@ -109,13 +109,13 @@ header {
   background-color: rgba(255,255,255,.9);
 }
 
-.fs-title, .ts-title {
+.fs-title, .ts-title, .ep-title, .fss-title, .usc-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 1.4em;
 }
 
-.featured-story-excerpt, .top-story-excerpt {
+.featured-story-excerpt, .top-story-excerpt, .ep-pick-excerpt {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   line-height: 1.3em;
