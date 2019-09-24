@@ -171,12 +171,12 @@ header {
 .more-stories-child {
   padding-top: 10px;
 }
-.ms-img-size{
+.ms-img-size, .usc-img-size, .biz-img-size {
   width: 150px;
   padding: 0 10px 15px 0;
 }
 
-.ms-title, .opi-title, .ln-title {
+.ms-title, .opi-title, .ln-title, .usc-title, .world-title, .biz-title, .tsc-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.1em;
   font-weight: bold;
