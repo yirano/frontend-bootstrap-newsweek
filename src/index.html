@@ -1,41 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../src/css/reset.css">
-    <link rel="stylesheet" href="../src/css/style.css">
-    <title>[PROJECT] - Newsweek</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <header class="container-fluid">
-      <div class="banner"><img src="../imgs/nw-logo.svg"></div>
-      <nav>
-        <ul>
-          <li><a href="#">U. S.</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Tech &amp; Science</a></li>
-          <li><a href="#">Culture</a></li>
-          <li><a href="#">Newsgeek</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Health</a></li>
-          <li><a href="#">Opinion</a></li>
-          <li><a href="#">Vantage</a></li>
-          <li><input type="search" name="search" id="search" placeholder="Search"></li>
-        </ul>
-      </nav>
-    </header>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/css/reset.css">
+  <link rel="stylesheet" href="../src/css/style.css">
+  <title>[PROJECT] - Newsweek</title>
+</head>
 
-    <div class="container">
+<body>
 
-    </div>
+  <header>
+    <a class="navbar-brand" href="#"><img src="../imgs/nw-logo.svg" alt="newsweek logo" /></a>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-light justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link active" href="#">U. S.</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">World</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Business</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Tech &amp; Science</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Culture</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Newsgeek</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Sports</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Health</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Opinion</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Vantage</a></li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <main>
+
+    <div class="row">
+      <!-- FIRST COLUMN -->
+      <div class="featured-stories col-md-3">
+        <h4 class="section-title">Featured Stories</h4>
+        <div class="featured-story-child">
+          <div class="featured-story-img">
+            <img src="../imgs/fs-pentagon.jpg" alt="press conference room" class="img-fluid" />
+            <div class="featured-story-category">
+              <a href="#">Analysis</a>
+            </div>
+          </div>
+          <div class="featured-story-title">
+            <h3 class="fs-title">
+              <a href="#">
+                Pentagon Silence on Afghanistan Slammed: The 'Zero O'Clock Follies</a>
+              </h3>
+          </div>
+          <div class="featured-story-excerpt">
+            <p>The peace talks are collapsing and the violence still claims U.S. service members' lives, but it's been
+              over a year since the Pentagon held a press briefing on America's longest war.</p>
+          </div>
+        </div>
+
+        <div class="featured-story-child">
+          <div class="featured-story-img">
+            <img src="../imgs/fs-imran.jpg" alt="Imran Khan" class="img-fluid" />
+            <div class="featured-story-category">
+              <a href="#">News</a>
+            </div>
+          </div>
+          <div class="featured-story-title">
+            <h3 class="fs-title">
+              <a href="#">U.S.-Pakistan Alliance After 9/11 Was a Big 'Blunder': Imran Khan</a>
+            </h3>
+          </div>
+          <div class="featured-story-excerpt">
+            <p>Khan lamented the huge human and economic cost of the War on Terror, noting that Pakistan "took a real
+              battering."</p>
+          </div>
+        </div>
+
+        <div class="featured-story-child">
+          <div class="featured-story-img">
+            <img src="../imgs/fs-drought.jpg" alt="woman overlooking a cliff" class="img-fluid" />
+            <div class="featured-story-category">
+              <a href="#">U. S.</a>
+            </div>
+          </div>
+          <div class="featured-story-title">
+            <h3 class="fs-title">
+              <a href="#">'Educated People' in DHS Know Climate Change Is Driving Migration: Expert</a>
+            </h3>
+          </div>
+          <div class="featured-story-excerpt">
+            <p>"Some might be hoping...we'll go back to a more enlightened moment in the history of the country," said
+              Oscar Chacón, co‐founder and executive director of Alianza Americas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECOND COLUMN -->
+      <!-- TOP STORY -->
+      <div class="col-md-5">
+        <div class="top-story">
+          <h4 class="section-title">Top Story</h4>
+          <div class="top-story-one">
+            <div class="top-story-img">
+              <img src="../imgs/ts-trump.jpg" alt="Donald Trump speaking" class="img-fluid" />
+              <div class="top-story-category">
+                <a href="#">Politics</a>
+              </div>
+            </div>
+            <div class="top-story-title">
+              <h3 class="ts-title"><a href="#">
+                Trump Says He Could 'Very Easily' Release Ukraine Call Transcript</a>
+              </h3>
+            </div>
+            <div class="top-story-excerpt">
+              <p>The president has tried to paint the controversy as a media-driven attack and denied any wrongdoing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- CULTURE AND TRAVEL  -->
+        <div class="culture-travel">
+          <h4 class="section-title">Culture &amp; Travel</h4>
+          <div class="row">
+            <div class="culture-travel-child col-md">
+              <div class="ct-img">
+                <img src="../imgs/ct-kenya.jpg" alt="man looking somewhere" class="img-fluid" />
+              </div>
+              <div class="ct-text-wrap">
+                <div class="culture-travel-title">
+                  <h3 class="ct-title">
+                    <a href="#">Uncharted Territory: A Queer Journey Through The Kenyan Bush</a>
+                  </h3>
+                </div>
+                <div class="culture-travel-excerpt">
+                  <p>Kenny Porpora, author of 'The Autumn Balloon,' joins an LGBT tour operator in Kenya, where
+                    homosexuality is punishable by up to 14 years in prison.</p>
+                </div>
+                <div class="culture-travel-category">
+                  <a href="#">Africa</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="culture-travel-child col-md">
+              <div class="ct-img">
+                <img src="../imgs/ct-best-airlines.jpg" alt="woman in maroon airline uniform standing inside airplane" class="img-fluid" />
+              </div>
+              <div class="ct-text-wrap">
+                <div class="culture-travel-title">
+                  <h3 class="ct-title">
+                    <a href="#">The World's Best Airlines, Ranked</a>
+                  </h3>
+                </div>
+                <div class="culture-travel-excerpt">
+                  <p>For best airline overall, Asian and Middle Eastern airlines triumphed.</p>
+                </div>
+                <div class="culture-travel-category">
+                  <a href="#">Slideshows</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row w-100">
+            <div class="culture-travel-child col-md">
+              <div class="ct-img">
+                <img src="../imgs/ct-downton-abbey.png" alt="a woman laying in bed" class="img-fluid" />
+              </div>
+              <div class="ct-text-wrap">
+                <div class="culture-travel-title">
+                  <h3 class="ct-title">
+                    <a href="#">Real-life Downton Abbey Available on Airbnb For Under $190 a Night</a>
+                  </h3>
+                </div>
+                <div class="culture-travel-excerpt">
+                  <p>"Lord and Lady Carnarvon will welcome guests into their home on arrival, and after settling them into their bedroom, will ask the guests to join them for cocktails before dinner."</p>
+                </div>
+                <div class="culture-travel-category">
+                  <a href="#">Downton abbey</a>
+                </div>
+              </div>
+            </div>
+            <div class="culture-travel-child col-md">
+              <div class="ct-img">
+                <img src="../imgs/ct-best-cocktail.jpg" alt="a fancy cup filled with orange alcoholic beverage" class="img-fluid" />
+              </div>
+              <div class="ct-text-wrap">
+                <div class="culture-travel-title">
+                  <h3 class="ct-title">
+                    <a href="#">9 Best Cocktail Bars in New York</a>
+                  </h3>
+                </div>
+                <div class="culture-travel-excerpt">
+                  <p>The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is right now.</p>
+                </div>
+                <div class="culture-travel-category">
+                  <a href="#">Cocktails</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="more-stories">
+          <h4 class="section-title">More Stories</h4>
+            div.
+        </div>
+      </div>
+
+      <!-- THIRD COLUMN -->
+      <div class="col-md-4">
+        <h4 class="section-title">Opinion</h4>
+      </div>
+    </div> <!-- ROW 1 -->
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
