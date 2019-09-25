@@ -28,6 +28,7 @@ body {
   font-size: 16px;
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 200px;
 }
 
 main {
@@ -72,12 +73,21 @@ header {
 .row {
   padding-bottom: 20px;
 }
-.section-title {
+.card-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   color: rgba(3, 3, 3, 0.4);
   text-transform: uppercase;
-  padding: 10px 0;
+  /* padding: 10px 0; */
+}
+
+.card-img-resize img {
+  height: 160px;
+  width: auto;
+}
+
+.card-deck, .card, .card-body {
+  border: none;
 }
 
 /************************
@@ -109,7 +119,7 @@ header {
   background-color: rgba(255,255,255,.9);
 }
 
-.fs-title, .ts-title, .ep-title, .fss-title, .usc-title {
+.fs-title, .ts-title, .ep-title, .fss-title, .usc-title, .s-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 1.4em;
@@ -171,12 +181,12 @@ header {
 .more-stories-child {
   padding-top: 10px;
 }
-.ms-img-size{
+.ms-img-size, .usc-img-size, .biz-img-size {
   width: 150px;
   padding: 0 10px 15px 0;
 }
 
-.ms-title, .opi-title, .ln-title {
+.ms-title, .opi-title, .ln-title, .usc-title, .world-title, .biz-title, .tsc-title, .c-title, .sp-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.1em;
   font-weight: bold;
@@ -231,6 +241,44 @@ header {
 
 .navbar {
   /* visibility: unset; */
-
+}
+/* SUBSCRIBE */
+.subscribe-img {
+  position: relative;
+}
+.overlay-exact {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+}
+.subscribe-text-wrapper {
+  position: absolute;
+  left: 300px;
 }
 
+/* NEWSLETTER */
+
+.newsletter {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter-bg {
+  background: url("../../imgs/newsletter.png") no-repeat;
+  background-position: center;
+  width: 180px;
+  height: 100%;
+}
+
+/* FOOTER */
+/* footer {
+  padding: 30px;
+}
+.footer-logo {
+  width: 200px;
+} */
+
+.navbar {
+  display: none;
+}
