@@ -276,3 +276,7 @@ header {
 .footer-logo {
   width: 200px;
 } */
+
+.navbar {
+  display: none;
+}
