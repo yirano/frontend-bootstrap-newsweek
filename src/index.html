@@ -38,11 +38,10 @@
     </form>
   </nav>
 
-  <main class="container">
-
+  <main class="container-fluid">
     <div class="row">
       <!-- FIRST COLUMN -->
-      <div class="featured-stories col-5 col-lg-3">
+      <div class="featured-stories col-lg-3 col-md-5 order-2 order-sm-2 order-md-1">
         <h4 class="section-title">Featured Stories</h4>
         <div class="featured-story-child">
           <div class="featured-story-img">
@@ -121,249 +120,265 @@
       </div>
 
       <!-- SECOND COLUMN -->
-      <!-- TOP STORY -->
-      <div class="col-7 col-lg-5">
-        <div class="top-story">
-          <h4 class="card-title">Top Story</h4>
-          <div class="top-story-one">
-            <div class="top-story-img">
-              <img src="../imgs/ts-trump.jpg" alt="Donald Trump speaking" class="img-fluid" />
-              <div class="top-story-category">
-                <a href="#">Politics</a>
-              </div>
-            </div>
-            <div class="top-story-title">
-              <h3 class="ts-title"><a href="#">
-                  Trump Says He Could 'Very Easily' Release Ukraine Call Transcript</a>
-              </h3>
-            </div>
-            <div class="top-story-excerpt">
-              <p>The president has tried to paint the controversy as a media-driven attack and denied any wrongdoing.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CULTURE AND TRAVEL  -->
-        <div class="culture-travel">
-          <h4 class="card-header">Culture &amp; Travel</h4>
+      <div class="col-lg-5 col-md-7 order-1 order-sm-1 order-md-2">
+
+        <!-- TOP STORY -->
+        <div class="container">
           <div class="row">
-            <div class="culture-travel-child col-md">
-              <div class="ct-img">
-                <img src="../imgs/ct-kenya.jpg" alt="man looking somewhere" class="img-fluid" />
-              </div>
-              <div class="ct-text-wrap">
-                <div class="culture-travel-title">
-                  <h3 class="ct-title">
-                    <a href="#">Uncharted Territory: A Queer Journey Through The Kenyan Bush</a>
+            <div class="top-story order-1 order-sm-1 order-md-1">
+              <h4 class="card-title">Top Story</h4>
+              <div class="top-story-one">
+                <div class="top-story-img">
+                  <img src="../imgs/ts-trump.jpg" alt="Donald Trump speaking" class="img-fluid" />
+                  <div class="top-story-category">
+                    <a href="#">Politics</a>
+                  </div>
+                </div>
+                <div class="top-story-title">
+                  <h3 class="ts-title"><a href="#">
+                      Trump Says He Could 'Very Easily' Release Ukraine Call Transcript</a>
                   </h3>
                 </div>
-                <div class="culture-travel-excerpt">
-                  <p>Kenny Porpora, author of 'The Autumn Balloon,' joins an LGBT tour operator in Kenya, where
-                    homosexuality is punishable by up to 14 years in prison.</p>
+                <div class="top-story-excerpt">
+                  <p>The president has tried to paint the controversy as a media-driven attack and denied any
+                    wrongdoing.
+                  </p>
                 </div>
-                <div class="culture-travel-category">
-                  <a href="#">Africa</a>
+              </div>
+            </div>
+            <!-- CULTURE AND TRAVEL  -->
+            <div class="culture-travel order-3 order-sm-3 order-md-2">
+              <h4 class="card-header">Culture &amp; Travel</h4>
+              <div class="row">
+                <div class="culture-travel-child col-md">
+                  <div class="ct-img">
+                    <img src="../imgs/ct-kenya.jpg" alt="man looking somewhere" class="img-fluid" />
+                  </div>
+                  <div class="ct-text-wrap">
+                    <div class="culture-travel-title">
+                      <h3 class="ct-title">
+                        <a href="#">Uncharted Territory: A Queer Journey Through The Kenyan Bush</a>
+                      </h3>
+                    </div>
+                    <div class="culture-travel-excerpt">
+                      <p>Kenny Porpora, author of 'The Autumn Balloon,' joins an LGBT tour operator in Kenya, where
+                        homosexuality is punishable by up to 14 years in prison.</p>
+                    </div>
+                    <div class="culture-travel-category">
+                      <a href="#">Africa</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culture-travel-child col-md">
+                  <div class="ct-img">
+                    <img src="../imgs/ct-best-airlines.jpg"
+                      alt="woman in maroon airline uniform standing inside airplane" class="img-fluid" />
+                  </div>
+                  <div class="ct-text-wrap">
+                    <div class="culture-travel-title">
+                      <h3 class="ct-title">
+                        <a href="#">The World's Best Airlines, Ranked</a>
+                      </h3>
+                    </div>
+                    <div class="culture-travel-excerpt">
+                      <p>For best airline overall, Asian and Middle Eastern airlines triumphed.</p>
+                    </div>
+                    <div class="culture-travel-category">
+                      <a href="#">Slideshows</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row w-100">
+                <div class="culture-travel-child col-md">
+                  <div class="ct-img">
+                    <img src="../imgs/ct-downton-abbey.png" alt="a woman laying in bed" class="img-fluid" />
+                  </div>
+                  <div class="ct-text-wrap">
+                    <div class="culture-travel-title">
+                      <h3 class="ct-title">
+                        <a href="#">Real-life Downton Abbey Available on Airbnb For Under $190 a Night</a>
+                      </h3>
+                    </div>
+                    <div class="culture-travel-excerpt">
+                      <p>"Lord and Lady Carnarvon will welcome guests into their home on arrival, and after settling
+                        them
+                        into their bedroom, will ask the guests to join them for cocktails before dinner."</p>
+                    </div>
+                    <div class="culture-travel-category">
+                      <a href="#">Downton abbey</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="culture-travel-child col-md">
+                  <div class="ct-img">
+                    <img src="../imgs/ct-best-cocktail.jpg" alt="a fancy cup filled with orange alcoholic beverage"
+                      class="img-fluid" />
+                  </div>
+                  <div class="ct-text-wrap">
+                    <div class="culture-travel-title">
+                      <h3 class="ct-title">
+                        <a href="#">9 Best Cocktail Bars in New York</a>
+                      </h3>
+                    </div>
+                    <div class="culture-travel-excerpt">
+                      <p>The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is
+                        right
+                        now.</p>
+                    </div>
+                    <div class="culture-travel-category">
+                      <a href="#">Cocktails</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="culture-travel-child col-md">
-              <div class="ct-img">
-                <img src="../imgs/ct-best-airlines.jpg" alt="woman in maroon airline uniform standing inside airplane"
-                  class="img-fluid" />
+            <!-- MORE STORIES  -->
+            <div class="more-stories order-2 order-sm-2 order-md-3">
+              <h4 class="card-title">More Stories</h4>
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-trump-crowd.jpg" alt="President Trump speaking to a crowd"
+                    class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Trump Administration Ignored Threats to U.S. Journalists in Egypt: Report
+                    </h3>
+                  </div>
+                  <p>The New York Times said it was forced to turn to Ireland to help one of its reports escape
+                    imminent
+                    arrest in Egypt, because the Trump administration failed to act.</p>
+                </div>
               </div>
-              <div class="ct-text-wrap">
-                <div class="culture-travel-title">
-                  <h3 class="ct-title">
-                    <a href="#">The World's Best Airlines, Ranked</a>
-                  </h3>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-parliament.jpg" alt="President Boris Johnson"
+                    class="img-thumbnail float-left ms-img-size" />
                 </div>
-                <div class="culture-travel-excerpt">
-                  <p>For best airline overall, Asian and Middle Eastern airlines triumphed.</p>
-                </div>
-                <div class="culture-travel-category">
-                  <a href="#">Slideshows</a>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      U.K. Supreme Court Declares Suspending Parliament Unlawful, Null and Void
+                    </h3>
+                  </div>
+                  <p>Britain's highest court has ruled that prime minister Boris Johnson's prorogation of Parliament
+                    was
+                    unlawful.</p>
                 </div>
               </div>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-trump-page.jpg" alt="Supporters of President Trump"
+                    class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Facebook Removes Trump Propaganda Page Run From Ukraine
+                    </h3>
+                  </div>
+                  <p>The "I Love America" page had more followers than major mainstream news outlets but was taken
+                    down
+                    by
+                    Facebook on Tuesday.</p>
+                </div>
+              </div>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-raid.jpg" alt="ICE Agent" class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Protests Planned Against ICE After Raid on Chicago Pizza Shop
+                    </h3>
+                  </div>
+                  <p>"Chicago is and always will be a welcoming city, and we stand firmly with our immigrant
+                    residents,"
+                    said Chicago Mayor Lori Lightfoot.</p>
+                </div>
+              </div>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-greta.jpg" alt="a little girl" class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Trump Mocks Greta Thunberg, Twitter Reacts: 'Horrible Evil World Leader'
+                    </h3>
+                  </div>
+                  <p>The president tweeted a video of Greta Thunberg's emotional United Nations speech and made a
+                    sarcastic
+                    remark.</p>
+                </div>
+              </div>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-brexit.jpeg" alt="Brexit staring into crowd"
+                    class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Brexit Party Leader Slams Boris Johnson's Suspension of U.K. Parliament
+                    </h3>
+                  </div>
+                  <p>The U.K.'s Supreme Court ruled that Prime Minister Boris Johnson's prorogation of Parliament
+                    over
+                    Brexit was unlawful.</p>
+                </div>
+              </div>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-photoshop.png" alt="Woman holding photoshopped cup"
+                    class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Canada's Green Party Photoshopped Metal Straw Onto Leader's Photo
+                    </h3>
+                  </div>
+                  <p>Original image of Elizabth May not drinking out of metal straw appears in other websites.</p>
+                </div>
+              </div>
+
+              <div class="more-stories-child clearfix border-bottom">
+                <div class="more-stories-img">
+                  <img src="../imgs/ms-jacinda.jpg" alt="woman in red coat"
+                    class="img-thumbnail float-left ms-img-size" />
+                </div>
+                <div class="more-stories-text-wrap">
+                  <div class="more-stories-title">
+                    <h3 class="ms-title">
+                      Trump Discussed Gun Reform with New Zealand's Jacinda Ardern
+                    </h3>
+                  </div>
+                  <p>President personally requested meeting with New Zealand prime minister on the sidelines of the
+                    United
+                    Nations General Assembly.</p>
+                </div>
+              </div>
+
             </div>
           </div>
-
-          <div class="row w-100">
-            <div class="culture-travel-child col-md">
-              <div class="ct-img">
-                <img src="../imgs/ct-downton-abbey.png" alt="a woman laying in bed" class="img-fluid" />
-              </div>
-              <div class="ct-text-wrap">
-                <div class="culture-travel-title">
-                  <h3 class="ct-title">
-                    <a href="#">Real-life Downton Abbey Available on Airbnb For Under $190 a Night</a>
-                  </h3>
-                </div>
-                <div class="culture-travel-excerpt">
-                  <p>"Lord and Lady Carnarvon will welcome guests into their home on arrival, and after settling them
-                    into their bedroom, will ask the guests to join them for cocktails before dinner."</p>
-                </div>
-                <div class="culture-travel-category">
-                  <a href="#">Downton abbey</a>
-                </div>
-              </div>
-            </div>
-            <div class="culture-travel-child col-md">
-              <div class="ct-img">
-                <img src="../imgs/ct-best-cocktail.jpg" alt="a fancy cup filled with orange alcoholic beverage"
-                  class="img-fluid" />
-              </div>
-              <div class="ct-text-wrap">
-                <div class="culture-travel-title">
-                  <h3 class="ct-title">
-                    <a href="#">9 Best Cocktail Bars in New York</a>
-                  </h3>
-                </div>
-                <div class="culture-travel-excerpt">
-                  <p>The Big Apple cocktail scene has never been less pretentious—and more expansive—than it is right
-                    now.</p>
-                </div>
-                <div class="culture-travel-category">
-                  <a href="#">Cocktails</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- MORE STORIES  -->
-        <div class="more-stories">
-          <h4 class="card-title">More Stories</h4>
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-trump-crowd.jpg" alt="President Trump speaking to a crowd"
-                class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Trump Administration Ignored Threats to U.S. Journalists in Egypt: Report
-                </h3>
-              </div>
-              <p>The New York Times said it was forced to turn to Ireland to help one of its reports escape imminent
-                arrest in Egypt, because the Trump administration failed to act.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-parliament.jpg" alt="President Boris Johnson"
-                class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  U.K. Supreme Court Declares Suspending Parliament Unlawful, Null and Void
-                </h3>
-              </div>
-              <p>Britain's highest court has ruled that prime minister Boris Johnson's prorogation of Parliament was
-                unlawful.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-trump-page.jpg" alt="Supporters of President Trump"
-                class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Facebook Removes Trump Propaganda Page Run From Ukraine
-                </h3>
-              </div>
-              <p>The "I Love America" page had more followers than major mainstream news outlets but was taken down by
-                Facebook on Tuesday.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-raid.jpg" alt="ICE Agent" class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Protests Planned Against ICE After Raid on Chicago Pizza Shop
-                </h3>
-              </div>
-              <p>"Chicago is and always will be a welcoming city, and we stand firmly with our immigrant residents,"
-                said Chicago Mayor Lori Lightfoot.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-greta.jpg" alt="a little girl" class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Trump Mocks Greta Thunberg, Twitter Reacts: 'Horrible Evil World Leader'
-                </h3>
-              </div>
-              <p>The president tweeted a video of Greta Thunberg's emotional United Nations speech and made a sarcastic
-                remark.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-brexit.jpeg" alt="Brexit staring into crowd"
-                class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Brexit Party Leader Slams Boris Johnson's Suspension of U.K. Parliament
-                </h3>
-              </div>
-              <p>The U.K.'s Supreme Court ruled that Prime Minister Boris Johnson's prorogation of Parliament over
-                Brexit was unlawful.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-photoshop.png" alt="Woman holding photoshopped cup"
-                class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Canada's Green Party Photoshopped Metal Straw Onto Leader's Photo
-                </h3>
-              </div>
-              <p>Original image of Elizabth May not drinking out of metal straw appears in other websites.</p>
-            </div>
-          </div>
-
-          <div class="more-stories-child clearfix border-bottom">
-            <div class="more-stories-img">
-              <img src="../imgs/ms-jacinda.jpg" alt="woman in red coat" class="img-thumbnail float-left ms-img-size" />
-            </div>
-            <div class="more-stories-text-wrap">
-              <div class="more-stories-title">
-                <h3 class="ms-title">
-                  Trump Discussed Gun Reform with New Zealand's Jacinda Ardern
-                </h3>
-              </div>
-              <p>President personally requested meeting with New Zealand prime minister on the sidelines of the United
-                Nations General Assembly.</p>
-            </div>
-          </div>
-
-
         </div>
       </div>
 
       <!-- THIRD COLUMN -->
-      <div class="col-12 col-lg-4">
+      <div class="col-lg-4 col-md-12 order-3 order-sm-3 order-md-3">
 
         <!-- OPINION -->
         <div class="opinion-parent">
@@ -393,7 +408,8 @@
             </div>
             <div class="opinion-text-wrap">
               <div class="opinion-title">
-                <h3 class="opi-title">California's Ambitious Climate Policies Are Fueling Our Economy—and Trump Won't
+                <h3 class="opi-title">California's Ambitious Climate Policies Are Fueling Our Economy—and Trump
+                  Won't
                   Stop Us</h3>
               </div>
               <div class="opinion-author">
@@ -410,7 +426,8 @@
             </div>
             <div class="opinion-text-wrap">
               <div class="opinion-title">
-                <h3 class="opi-title">Meeting the Challenge of Climate Change Is Key to 21st-Century Urban Growth</h3>
+                <h3 class="opi-title">Meeting the Challenge of Climate Change Is Key to 21st-Century Urban Growth
+                </h3>
               </div>
               <div class="opinion-author">
                 <p>By Nicholas Stern</p>
@@ -1029,7 +1046,8 @@
             <img src="../imgs/biz-suit.jpg" alt="man in suit and red tie" class="img-fluid" />
           </div>
           <div class="business-category-title">
-            <h3 class="biz-title"><a href="#">Man Who Asks for Beer Money on TV Makes $1 Million for Charity</a></h3>
+            <h3 class="biz-title"><a href="#">Man Who Asks for Beer Money on TV Makes $1 Million for Charity</a>
+            </h3>
           </div>
         </div>
         <div class="business-category-child col-md-4">
@@ -1037,7 +1055,8 @@
             <img src="../imgs/biz-suit.jpg" alt="man in suit and red tie" class="img-fluid" />
           </div>
           <div class="business-category-title">
-            <h3 class="biz-title"><a href="#">Man Who Asks for Beer Money on TV Makes $1 Million for Charity</a></h3>
+            <h3 class="biz-title"><a href="#">Man Who Asks for Beer Money on TV Makes $1 Million for Charity</a>
+            </h3>
           </div>
         </div>
 
@@ -1084,7 +1103,8 @@
             <img src="../imgs/tech-earth.jpg" alt="Satellite image of earth" class="img-fluid" />
           </div>
           <div class="tech-science-category-title">
-            <h3 class="tsc-title"><a href="#">NASA Says 2019 Arctic Sea Ice Minimum Ties for Second Lowest on Record</a>
+            <h3 class="tsc-title"><a href="#">NASA Says 2019 Arctic Sea Ice Minimum Ties for Second Lowest on
+                Record</a>
             </h3>
           </div>
         </div>
@@ -1093,7 +1113,8 @@
             <img src="../imgs/tech-earth.jpg" alt="Satellite image of earth" class="img-fluid" />
           </div>
           <div class="tech-science-category-title">
-            <h3 class="tsc-title"><a href="#">NASA Says 2019 Arctic Sea Ice Minimum Ties for Second Lowest on Record</a>
+            <h3 class="tsc-title"><a href="#">NASA Says 2019 Arctic Sea Ice Minimum Ties for Second Lowest on
+                Record</a>
             </h3>
           </div>
         </div>
@@ -1185,9 +1206,7 @@
               <h3 class="c-title">Twitter Reacts to the First Elimination Episode of 'Dancing With the Stars'</h3>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
     <div class="sports-category border-top border-bottom">
@@ -1253,7 +1272,8 @@
         </div>
         <div class="subscribe-text-wrapper">
           <div class="subscribe-title">
-            <h3 class="s-title"><a href="#">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</a>
+            <h3 class="s-title"><a href="#">In-depth Stories You Don't See Elsewhere About Topics You Want to
+                Read!</a>
             </h3>
           </div>
 

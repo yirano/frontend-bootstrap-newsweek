@@ -40,6 +40,11 @@ a {
   color: inherit;
 }
 
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
 .fit-image {
   object-fit: cover;
   height: auto;
