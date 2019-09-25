@@ -229,5 +229,7 @@ header {
   color: red;
 }
 
-
+.navbar {
+  display: none;
+}
 
