@@ -230,6 +230,7 @@ header {
 }
 
 .navbar {
-  display: none;
+  /* visibility: unset; */
+
 }
 
