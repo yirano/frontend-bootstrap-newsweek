@@ -276,7 +276,7 @@ main.container-fluid {
 
 /* OPINION  */
 
-.opinion-child > div {
+.opinion-child>div {
   padding: 10px;
 }
 
