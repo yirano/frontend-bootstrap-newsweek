@@ -1,7 +1,5 @@
-
 body {
-  /* margin: 0 auto; */
-  font-size: 16px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
@@ -17,7 +15,6 @@ main {
   width: 92% !important;
   padding: 0 !important;
   background-color: #fff;
-
   padding-top: 20px !important;
 }
 
@@ -70,7 +67,7 @@ header {
 }
 
 .nav-item {
-  font-size: 1em;
+  font-size: 18px;
 }
 
 .search-btn {
@@ -89,6 +86,19 @@ main.container-fluid {
 
 .img-thumbnail {
   border: none;
+}
+
+.card {
+  color: #333;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #333 !important;
+}
+
+.card-body {
+  text-align: center;
 }
 
 .navbar-brand {
@@ -123,17 +133,17 @@ main.container-fluid {
   height: 30px;
   display: inline-block;
   position: relative;
-  top:7px;
+  top: 7px;
   right: 10px;
 }
 
 .section-title {
   color: rgba(3, 3, 3, 0.8);
-  font-size: 1em;
+  font-size: 18px;
   text-align: center;
-  margin: 15px;
+  margin: 17px;
   border-bottom: 1px solid rgba(163, 163, 163, 0.5);
-  padding-bottom: 15px;
+  padding-bottom: 17px;
 }
 
 .culture-category {
@@ -144,7 +154,7 @@ main.container-fluid {
   padding: 20px 0;
   color: red;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -158,6 +168,10 @@ main.container-fluid {
 .card,
 .card-body {
   border: none;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
 }
 
 /************************
@@ -191,7 +205,7 @@ main.container-fluid {
 .featured-slideshows-num a {
   position: absolute;
   bottom: 0;
-  padding: 8px 15px 9px;
+  padding: 8px 17px 9px;
   color: red;
   background-color: rgba(255, 255, 255, .9);
 }
@@ -211,7 +225,7 @@ main.container-fluid {
 .top-story-excerpt,
 .ep-pick-excerpt {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+  font-size: 17px;
   line-height: 1.3em;
 }
 
@@ -239,7 +253,7 @@ main.container-fluid {
 
 .culture-travel-excerpt {
   color: rgba(39, 39, 39, .5);
-  font-size: 0.9em;
+  font-size: 17px;
   line-height: 1.2em;
   padding-top: 10px;
 }
@@ -250,7 +264,7 @@ main.container-fluid {
 
 .culture-travel-category a {
   background-color: #BFD4D5;
-  font-size: 0.8em;
+  font-size: 14px;
   color: #272727;
   padding: 5px;
 }
@@ -263,14 +277,16 @@ main.container-fluid {
 
 .article-stack-img-size {
   width: 150px;
-  padding: 0 10px 15px 0;
+  padding: 0 10px 17px 0;
 }
 
 .article-stack-title {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1em;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.1em;
+  padding-top: 6px;
+  padding-bottom: 20px;
 }
 
 /* OPINION  */
@@ -281,7 +297,7 @@ main.container-fluid {
 
 .opinion-author {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: .9em;
+  font-size: 17px;
   text-transform: uppercase;
   font-weight: bold;
   color: #555;
@@ -307,7 +323,7 @@ main.container-fluid {
 .magazine-category,
 .magazine-sub-category {
   padding: 3px 7px;
-  font-size: .9em;
+  font-size: 17px;
 }
 
 .magazine-category {
@@ -321,8 +337,17 @@ main.container-fluid {
 }
 
 /* SUBSCRIBE */
+
 .subscribe-img {
   position: relative;
+}
+
+.subscribe-card {
+  background-color: #f4f5f6;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: none;
+  line-height: 1.6em;
 }
 
 .subscribe-img img {
@@ -330,9 +355,16 @@ main.container-fluid {
   width: auto;
 }
 
+.subscribe-btn {
+  margin-top: 20px;
+  color: #fff;
+  background-color: red;
+  padding: 7px 20px;
+}
+
 .overlay-exact {
   position: absolute;
-  top: 15px;
+  top: 17px;
   left: 80px;
 }
 
@@ -344,9 +376,12 @@ main.container-fluid {
 /* NEWSLETTER */
 
 .newsletter {
-  border: 1px solid black;
   width: 100%;
   height: 100%;
+}
+
+.newsletter-row {
+  padding: 0 !important;
 }
 
 .newsletter-img {
@@ -356,8 +391,8 @@ main.container-fluid {
 .newsletter-img img {
   height: 100%;
   width: auto;
+  left: 200px;
   margin-left: -120px;
-  
 }
 
 /* FOOTER */
@@ -366,7 +401,6 @@ footer {
 }
 
 footer.container-fluid {
-  /* margin: 0 30px; */
   padding: 0 !important;
 }
 
@@ -388,7 +422,7 @@ footer img.footer-icon {
 .list-inline-item {
   padding: 0 10px;
   line-height: 1.4em;
-  font-size: 0.9em;
+  font-size: 17px;
 }
 
 .footer-second .nav-item {
@@ -410,10 +444,11 @@ footer img.footer-icon {
     padding-top: 10px;
     opacity: 0.5;
   }
-  
+
   .navbar {
     display: none;
   }
+
   .navbar-brand {
     height: 50px;
   }
@@ -424,7 +459,6 @@ footer img.footer-icon {
     left: 20px;
     overflow: hidden;
   }
-
 }
 
 @media (max-width: 767.98px) {
@@ -436,18 +470,46 @@ footer img.footer-icon {
   .article-stack-img-size {
     width: 300px;
   }
+
   .featured-story-img img {
     position: relative;
     height: 380px;
     width: 100%;
-    /* padding: 30px 0; */
     object-fit: cover;
   }
 
-  .magazine-img img, .editor-pick-img img {
+  .magazine-img img,
+  .editor-pick-img img {
     height: 380px;
     width: 100vw;
     object-fit: cover;
     padding: 30px 0 10px 0;
+  }
+
+  .subscribe-card {
+    position: relative;
+    width: 100vw !important;
+  }
+
+  .subscribe-img {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 !important;
+    width: calc(100% -160/2);
+    left: 190px;
+  }
+
+  .newsletter-card {
+    height: 300px;
+    width: 100vw !important;
+    margin-bottom: 230px;
+  }
+
+  .newsletter-img img {
+    margin-left: 0;
+    height: auto;
+    width: 100vw;
+    object-fit: cover;
   }
 }
