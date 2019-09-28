@@ -1,12 +1,11 @@
 linters:
   stylelint:
     config: "stylelint.config.js"
-  csslint: 
-    config: 'src/css/style.css'
 
-fixers:
+  fixers:
     enable: true
 
 files:
   ignore:
     - "src/css/reset.css"
+    - "node_modules/*"
