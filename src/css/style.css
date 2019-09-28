@@ -323,6 +323,7 @@ main.container-fluid {
 }
 
 /* SUBSCRIBE */
+.subscribe
 
 .subscribe-img {
   position: relative;
@@ -360,11 +361,20 @@ main.container-fluid {
   left: 300px;
 }
 
+.subscribe-card .card-title, .subscribe-card .card-text, .subscribe-btn {
+  text-align: left !important;
+}
+
 /* NEWSLETTER */
 
-.newsletter {
-  width: 100%;
-  height: 100%;
+.newsletter-card {
+  width: 100% !important;
+  /* height: auto; */
+}
+
+.newsletter-card .card-title, .newsletter-card .card-text, .subscribe-btn {
+  text-align: left !important;
+  float: left;
 }
 
 .newsletter-row {
@@ -373,16 +383,22 @@ main.container-fluid {
 
 .newsletter-img {
   overflow: hidden;
+  margin-left: 15px;
+  margin-right: -15px;
 }
 
 .newsletter-img img {
-  height: 100%;
-  width: auto;
-  left: 200px;
   margin-left: -120px;
+  height: 105%;
+  width: auto;
+}
+
+.newsletter-card .card-body {
+  margin-left: 10px;
 }
 
 /* FOOTER */
+
 footer {
   padding-top: 20px;
   font-size: 14px;
