@@ -4,3 +4,7 @@ linters:
 
 fixers:
     enable: true
+
+files:
+  ignore:
+    - "src/css/reset.css"
