@@ -277,7 +277,7 @@ main.container-fluid {
 
 /* OPINION  */
 
-.opinion-child > div {
+.opinion-child>div {
   padding: 10px;
 }
 
@@ -323,9 +323,8 @@ main.container-fluid {
 }
 
 /* SUBSCRIBE */
-.subscribe
 
-.subscribe-img {
+.subscribe .subscribe-img {
   position: relative;
 }
 
@@ -361,7 +360,9 @@ main.container-fluid {
   left: 300px;
 }
 
-.subscribe-card .card-title, .subscribe-card .card-text, .subscribe-btn {
+.subscribe-card .card-title,
+.subscribe-card .card-text,
+.subscribe-btn {
   text-align: left !important;
 }
 
@@ -369,10 +370,11 @@ main.container-fluid {
 
 .newsletter-card {
   width: 100% !important;
-  /* height: auto; */
 }
 
-.newsletter-card .card-title, .newsletter-card .card-text, .subscribe-btn {
+.newsletter-card .card-title,
+.newsletter-card .card-text,
+.subscribe-btn {
   text-align: left !important;
   float: left;
 }
@@ -413,7 +415,7 @@ footer img.footer-logo {
   width: 200px;
 }
 
-footer ul li{
+footer ul li {
   display: inline-block;
 }
 
