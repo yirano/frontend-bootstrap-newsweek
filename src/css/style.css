@@ -585,7 +585,7 @@ footer img.footer-icon {
 
   .subscribe-card {
     position: relative;
-    width: 100vw !important;
+    width: inherit !important;
   }
 
   .subscribe-img {
@@ -598,12 +598,13 @@ footer img.footer-icon {
 
   .newsletter-card {
     height: auto;
-    width: 100% !important;
+    width: inherit !important;
     margin-bottom: 70px;
     border-bottom: 1px solid rgba(163, 163, 163, 0.5);
   }
 
   .newsletter-img img {
+    width: inherit;
     margin-left: 0;
     height: auto;
     object-fit: cover;
