@@ -6,8 +6,9 @@ body {
 
 body.container-fluid {
   max-width: 1310px;
-  margin: 0 auto !important;
-  padding: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
 }
 
 main {
@@ -277,7 +278,7 @@ main.container-fluid {
 
 /* OPINION  */
 
-.opinion-child > div {
+.opinion-child>div {
   padding: 10px;
 }
 
@@ -470,7 +471,8 @@ footer img.footer-icon {
   }
 
   .navbar-brand img {
-    height: 25px;
+    margin-top: 14px;
+    height: 35%;
     position: absolute;
     left: 20px;
     overflow: hidden;
@@ -478,6 +480,86 @@ footer img.footer-icon {
 }
 
 @media (max-width: 767.98px) {
+  body.container-fluid {
+    max-width: auto;
+    margin-left: 0px !important;
+    padding-left: 0 !important;
+  }
+
+  .col,
+  .col-1,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-auto,
+  .col-lg,
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-auto,
+  .col-md,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-auto,
+  .col-sm,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-auto,
+  .col-xl,
+  .col-xl-1,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-auto {
+    padding-left: 10px !important;
+    margin-right: 0 !important;
+  }
+
   header {
     margin: 0 auto;
     padding: 0 !important;
@@ -499,7 +581,6 @@ footer img.footer-icon {
     height: 380px;
     width: 100vw;
     object-fit: cover;
-    padding: 30px 0 10px 0;
   }
 
   .subscribe-card {
@@ -512,8 +593,7 @@ footer img.footer-icon {
     position: relative;
     margin: 0 auto;
     padding: 0 !important;
-    width: calc(100% - 160 / 2);
-    left: 190px;
+    margin-left: 25%;
   }
 
   .newsletter-card {
@@ -526,11 +606,14 @@ footer img.footer-icon {
   .newsletter-img img {
     margin-left: 0;
     height: auto;
-    width: 100vw;
     object-fit: cover;
   }
 
   .social-media-icons {
     float: left;
+  }
+
+  .subscribe-btn-header span {
+    display: none;
   }
 }
