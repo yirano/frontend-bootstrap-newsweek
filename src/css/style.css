@@ -89,15 +89,6 @@ main.container-fluid {
   border: none;
 }
 
-.card {
-  color: #333;
-}
-
-.card-title {
-  font-size: 18px;
-  color: #333 !important;
-}
-
 .card-body {
   text-align: center;
 }
@@ -127,7 +118,6 @@ main.container-fluid {
 
 .section-title::before {
   content: "";
-  display: block;
   background: url("../../imgs/icon-title.png") no-repeat;
   background-size: 30px;
   width: 30px;
@@ -159,7 +149,6 @@ main.container-fluid {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
 .card-img-resize img {
   height: 160px;
   width: auto;
@@ -174,10 +163,6 @@ main.container-fluid {
 .card {
   border: 1px solid #e0e0e0;
 }
-
-/************************
- CHILD CONTENT SET UP 
- ************************/
 
 /* FEATURED STORY & TOP STORY */
 
@@ -208,7 +193,7 @@ main.container-fluid {
   bottom: 0;
   padding: 8px 17px 9px;
   color: red;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .fs-title,
@@ -243,7 +228,7 @@ main.container-fluid {
 /* CULTURE AND TRAVEL */
 
 .culture-travel {
-  background-color: #F3F5FF;
+  background-color: #f3f5ff;
   color: #333;
   margin-bottom: 20px;
 }
@@ -253,7 +238,7 @@ main.container-fluid {
 }
 
 .culture-travel-excerpt {
-  color: rgba(39, 39, 39, .5);
+  color: rgba(39, 39, 39, 0.5);
   font-size: 17px;
   line-height: 1.2em;
   padding-top: 10px;
@@ -264,7 +249,7 @@ main.container-fluid {
 }
 
 .culture-travel-category a {
-  background-color: #BFD4D5;
+  background-color: #bfd4d5;
   font-size: 14px;
   color: #272727;
   padding: 5px;
@@ -292,7 +277,7 @@ main.container-fluid {
 
 /* OPINION  */
 
-.opinion-child>div {
+.opinion-child > div {
   padding: 10px;
 }
 
@@ -497,7 +482,7 @@ footer img.footer-icon {
     position: relative;
     margin: 0 auto;
     padding: 0 !important;
-    width: calc(100% -160/2);
+    width: calc(100% - 160 / 2);
     left: 190px;
   }
 
