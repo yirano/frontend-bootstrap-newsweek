@@ -334,6 +334,7 @@ main.container-fluid {
   padding-left: 20px;
   border: none;
   line-height: 1.6em;
+  color: #666;
 }
 
 .subscribe-img img {
@@ -384,6 +385,8 @@ main.container-fluid {
 /* FOOTER */
 footer {
   padding-top: 20px;
+  font-size: 14px;
+  color: #666;
 }
 
 footer.container-fluid {
@@ -394,8 +397,13 @@ footer img.footer-logo {
   width: 200px;
 }
 
-footer ul li {
+footer ul li{
   display: inline-block;
+}
+
+.footer-second a {
+  font-size: 14px;
+  color: #666;
 }
 
 footer img.footer-icon {
@@ -413,6 +421,10 @@ footer img.footer-icon {
 
 .footer-second .nav-item {
   padding: 5px 10px;
+}
+
+.social-media-icons {
+  float: right;
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -487,9 +499,10 @@ footer img.footer-icon {
   }
 
   .newsletter-card {
-    height: 300px;
-    width: 100vw !important;
-    margin-bottom: 230px;
+    height: auto;
+    width: 100% !important;
+    margin-bottom: 70px;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.5);
   }
 
   .newsletter-img img {
@@ -497,5 +510,9 @@ footer img.footer-icon {
     height: auto;
     width: 100vw;
     object-fit: cover;
+  }
+
+  .social-media-icons {
+    float: left;
   }
 }
