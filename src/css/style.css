@@ -364,7 +364,7 @@ main.container-fluid {
 .newsletter-card .card-title,
 .newsletter-card .card-text,
 .subscribe-btn {
-  text-align: left !important;
+  text-align: left;
   float: left;
 }
 
@@ -462,7 +462,6 @@ footer img.footer-icon {
 @media (max-width: 767.98px) {
   header {
     margin: 0 auto;
-    padding: 0 !important;
   }
 
   .article-stack-img-size {
