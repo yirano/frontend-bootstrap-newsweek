@@ -276,7 +276,7 @@ main.container-fluid {
 
 /* OPINION  */
 
-.opinion-child>div {
+.opinion-child > div {
   padding: 10px;
 }
 
@@ -477,15 +477,6 @@ footer img.footer-icon {
     object-fit: cover;
   }
 
-  .latest-news-img {
-    width: 120px;
-  }
-
-  .latest-news-child .latest-news-img img {
-    display: inline;
-    width: inherit;
-  }
-
   .magazine-img img,
   .editor-pick-img img {
     height: 380px;
@@ -515,6 +506,15 @@ footer img.footer-icon {
     margin-left: -15px;
     height: auto;
     object-fit: cover;
+  }
+
+  .latest-news-img {
+    width: 120px;
+  }
+
+  .latest-news-child .latest-news-img img {
+    display: inline;
+    width: inherit;
   }
 
   .social-media-icons {
