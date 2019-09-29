@@ -1,0 +1,25 @@
+{
+  "name": "mv-07-bootstrap-newsweek",
+  "version": "1.0.0",
+  "description": "A replica of the Newsweek landing site using Bootstrap.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yirano/mv-07-bootstrap-newsweek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yirano/mv-07-bootstrap-newsweek/issues"
+  },
+  "homepage": "https://github.com/yirano/mv-07-bootstrap-newsweek#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
