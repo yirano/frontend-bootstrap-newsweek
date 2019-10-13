@@ -15,42 +15,170 @@
 </head>
 
 <body class="container-fluid">
-    <div class="row">
-        <header class="text-center col-lg-12 pl-0 pr-0">
-            <a class="navbar-brand" href="#"><img src="../imgs/main-logo.png" alt="newsweek logo" /></a>
-            <div class="float-left header-bottom-left header-bottom">
-              <span class="date-header">Tue, Sep 24, 2019</span>
-            </div>
-            <div class="clearfix header-bottom-right header-bottom">
-              <a href="#">Sign In</a>
-              <button class="subscribe-btn-header">Subscribe <span>></span></button>
-              <img src="../imgs/hamburger-menu.png" alt="hamburger menu" class="hidden-lg" style="width: 20px;" />
-            </div>
-            <nav class="navbar navbar-expand-md navbar-collapse justify-content-center">
-              <ul class="navbar-nav">
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">U. S.</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">World</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Business</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Tech &amp; Science</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Culture</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Newsgeek</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Sports</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Health</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Opinion</a></li>
-                <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Vantage</a></li>
-              </ul>
-              <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="button">Search</button>
-            </nav>
-          </header>
-        </div>
+  <div class="row">
+    <header class="text-center col-lg-12 pl-0 pr-0">
+      <a class="navbar-brand" href="#"><img src="../imgs/main-logo.png" alt="newsweek logo" /></a>
+      <div class="float-left header-bottom-left header-bottom">
+        <span class="date-header">Tue, Sep 24, 2019</span>
+      </div>
+      <div class="clearfix header-bottom-right header-bottom">
+        <a href="#">Sign In</a>
+        <button class="subscribe-btn-header">Subscribe <span>></span></button>
+        <img src="../imgs/hamburger-menu.png" alt="hamburger menu" class="hidden-lg" style="width: 20px;" />
+      </div>
+      <nav class="navbar navbar-expand-md navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">U. S.</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">World</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Business</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Tech &amp; Science</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Culture</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Newsgeek</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Sports</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Health</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Opinion</a></li>
+          <li class="nav-item" data-toggle="collapse"><a class="nav-link active" href="#">Vantage</a></li>
+        </ul>
+        <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="button">Search</button>
+      </nav>
+    </header>
+  </div>
 
-  <main class="container">
+  <main class="container-fluid">
     <div class="row">
 
       <div class="left col1"></div>
-      <div class="middle col2"></div>
+      <div class="middle col2">
+        <div class="block-title">Top Story</div>
+
+        <article>
+          <div class="image">
+            <div class="category">World</div>
+            <a href="#">
+              <img src="../imgs/magazine.jpeg" alt="Magazine" class="img-fluid" />
+            </a>
+          </div>
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <div class="summary">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+          </div>
+        </article>
+
+        <div class="culture-stories order-2 card">
+          <div class="block-title">
+            <a href="#">Culture &amp; Travel</a>
+          </div>
+
+          <div class="culture-items">
+            <div class="row">
+              <div class="culture-item col-6">
+                <div class="image">
+                  <a href="#">
+                    <img src="../imgs/Monaco-family.webp" alt="Photo of Princess Monaco and family" class="img-fluid" />
+                  </a>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <a href="#">
+                      <h2>
+                        Modern-Day Dynasties Still Ruling the World
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="summary">
+                    <p>
+                      While many of the famed dynastic families of the world have died out or been replaced by
+                      democracies, there are a handful still ruling the roost.
+                    </p>
+                  </div>
+                  <div class="tags">
+                    <a href="#">Travel</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="culture-item col-6">
+                <div class="image">
+                  <a href="#">
+                    <img src="../imgs/urban-scrawl.webp" alt="Graffiti on wall" class="img-fluid" />
+                  </a>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <a href="#">
+                      <h2>
+                        Urban Scrawl: The Written Word in Street Art
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="summary">
+                    <p>
+                      Across the world the side walk is turned into an art installation with street art.
+                    </p>
+                  </div>
+                  <div class="tags">
+                    <a href="#">Travel</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="culture-item col-6">
+                  <div class="image">
+                    <a href="#">
+                      <img src="../imgs/culture-photographer.jpeg" alt="Stylish photographer" class="img-fluid" />
+                    </a>
+                  </div>
+                  <div class="info">
+                    <div class="title">
+                      <a href="#">
+                        <h2>
+                          Lorem ipsum dolor sit amet
+                        </h2>
+                      </a>
+                    </div>
+                    <div class="summary">
+                      <p>
+                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                      </p>
+                    </div>
+                    <div class="tags">
+                      <a href="#">Travel</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="culture-item col-6">
+                    <div class="image">
+                      <a href="#">
+                        <img src="../imgs/culture-ballerina.jpeg" alt="Ballerina" class="img-fluid" />
+                      </a>
+                    </div>
+                    <div class="info">
+                      <div class="title">
+                        <a href="#">
+                          <h2>
+                              Lorem ipsum dolor sit amet
+                          </h2>
+                        </a>
+                      </div>
+                      <div class="summary">
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                      </div>
+                      <div class="tags">
+                        <a href="#">Travel</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
       <div class="right col3"></div>
-      
+
     </div>
   </main>
 
