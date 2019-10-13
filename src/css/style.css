@@ -36,6 +36,7 @@ header.container-fluid {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   width: 100vw;
+  
 }
 
 .header-top {
@@ -77,9 +78,13 @@ header.container-fluid {
   border: none;
 }
 
+.header-bottom {
+  display: flex;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
 .navbar {
   background-color: #fff;
-  border-bottom: 1px solid rgb(230, 230, 230);
   margin: 0 auto;
 }
 
@@ -118,7 +123,7 @@ div.left, div.right, div.middle {
 main.container {
   margin: 0 10px;
   margin-top: 20px;
-  max-width: 100%;
+  max-width: 98%;
   background-color: #fff;
 }
 
@@ -322,6 +327,28 @@ article h2 {
 
 .card {
   margin-bottom: 30px;
+}
+
+/* In the Magazine */
+.n-icon {
+  content: '';
+  background-image: url("../../imgs/n-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.in-the-news .card {
+  background-color: #fff;
+}
+
+.card-img-top {
+  width: auto;
+  overflow: hidden;
+}
+
+.card-img-top img {
+  height: auto;
+  width: fit-content;
 }
 
 /* FOOTER */
