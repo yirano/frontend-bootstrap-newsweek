@@ -120,7 +120,7 @@ div.right {
 
 main.container-fluid {
   margin: 0 auto;
-  width: 1310px;
+  max-width: 1310px;
   background-color: #fff;
   padding-top: 20px;
   margin: 0 auto;
@@ -368,4 +368,10 @@ footer img.footer-icon {
 
 .social-media-icons {
   float: right;
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (max-width: 991px) {
 }
