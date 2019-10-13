@@ -8,7 +8,7 @@ A replica of the [Newsweek](https://newsweek.com) landing page using Bootstrap. 
 
 ## Links
 - **Assignment page**: [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
-- **Live**: [Github pages](https://yirano.github.io/mv-07-bootstrap-newsweek/src/)
+- **Live**: [Github pages](https://yirano.github.io/frontend-bootstrap-newsweek/src/)
 
 ## License
 Distributed under the MIT License. See LICENSE for more information.
