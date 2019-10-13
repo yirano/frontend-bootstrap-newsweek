@@ -17,7 +17,6 @@ body {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  border: 2px solid red;
 }
 
 body.container-fluid {
@@ -175,6 +174,10 @@ article h2 {
   border-radius: 0;
 }
 
+.culture-stories {
+  margin-bottom: 20px;
+}
+
 .culture-stories .block-title {
   padding: 10px;
 }
@@ -214,9 +217,46 @@ article h2 {
   display: inline;
 }
 
-/* FEATURED STORY & TOP STORY */
+/* More Stories */
 
+.more-stories .image {
+  height: 90px;
+  width: 135px;
+  overflow: hidden;
+  float: left;
+  margin: 0 15px 10px 0;
+}
 
+.feature2 article {
+  padding: 14px 0;
+}
+
+.feature2 img {
+  width: fit-content;
+}
+
+.feature2 img {
+  clear: both;
+}
+
+.feature2 h4 {
+  display: block;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.feature2 .summary {
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial,Helvetica,sans-serif;
+  text-transform: none;
+  font-weight: 400;
+}
 
 /* FOOTER */
 
