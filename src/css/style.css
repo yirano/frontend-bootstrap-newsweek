@@ -117,11 +117,12 @@ div.right {
   width: 30%;
 }
 
-main {
+main.container-fluid {
   margin: 0 auto;
-  width: 92%;
+  width: 1310px;
   background-color: #fff;
   padding-top: 20px;
+  margin: 0 auto;
 }
 
 a {
@@ -224,7 +225,7 @@ article h2 {
 
 /* More Stories */
 
-.more-stories .image {
+.content .image {
   height: 90px;
   width: 135px;
   overflow: hidden;
@@ -232,19 +233,19 @@ article h2 {
   margin: 0 15px 10px 0;
 }
 
-.feature2 article {
+.content article {
   padding: 14px 0;
 }
 
-.feature2 img {
+.content img {
   width: fit-content;
 }
 
-.feature2 img {
+.content img {
   clear: both;
 }
 
-.feature2 h4 {
+.content h4 {
   display: block;
   font-weight: bold;
   color: black;
@@ -254,7 +255,7 @@ article h2 {
   line-height: 20px;
 }
 
-.feature2 .summary {
+.content .summary {
   color: #333;
   font-size: 15px;
   line-height: 20px;
@@ -307,6 +308,9 @@ article h2 {
   font-weight: bold;
 }
 
+.opinion {
+  margin-bottom: 30px;
+}
 
 /* FOOTER */
 
