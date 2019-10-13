@@ -266,13 +266,13 @@ article h2 {
 
 /* featured stories */
 
-.featured-stories .image {
+.featured .image {
   height: 210px;
   overflow: hidden;
   margin-bottom: 10px;
 }
 
-.featured-stories h3 {
+.featured h3 {
   font-size: 24px;
   line-height: 24px;
   font-family: "Roboto Condensed",sans-serif;
@@ -280,7 +280,7 @@ article h2 {
   font-weight: bold;
 }
 
-.featured-stories .summary {
+.featured .summary {
   font-size: 15px;
   line-height: 20px;
 }
@@ -309,6 +309,21 @@ article h2 {
 }
 
 .opinion {
+  margin-bottom: 30px;
+}
+
+/* Sponsored Insight */
+.sponsored-insight .category {
+  color: #3581f4;
+}
+
+.sponsored-insight article {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  padding-bottom: 30px;
+}
+
+.card {
   margin-bottom: 30px;
 }
 
