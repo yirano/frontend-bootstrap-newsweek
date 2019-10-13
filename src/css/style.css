@@ -103,6 +103,13 @@ header.container-fluid {
 
 /* main  */
 
+main.container {
+  margin: 0 10px;
+  margin-top: 20px;
+  max-width: 98%;
+  background-color: #fff;
+}
+
 div.left, div.right, div.middle {
   height: auto;
 }
@@ -118,13 +125,6 @@ div.left, div.right, div.middle {
 
 .col3 {
   width: 30%;
-}
-
-main.container {
-  margin: 0 10px;
-  margin-top: 20px;
-  max-width: 98%;
-  background-color: #fff;
 }
 
 a {
@@ -405,11 +405,11 @@ footer img.footer-icon {
 
 @media screen and (max-width: 991px) {
   .col1 {
-    width: 42%;
+    width: 45%;
   }
 
   .col2 {
-    width: 52%;
+    width: 55%;
   }
 
   .col3 {
@@ -432,5 +432,23 @@ footer img.footer-icon {
     top: 10px;
   }
 
+  .sponsored-insight {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 761px) {
+  .col1, .col2 {
+    width: 100%;
+  }
+
+  article {
+    height: auto;
+  }
+
+  .featured .image {
+    height: 410px;
+  }
 
 }
