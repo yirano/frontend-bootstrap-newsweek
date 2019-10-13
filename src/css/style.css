@@ -31,6 +31,7 @@ body.container-fluid {
 /* HEADER AND NAV */
 
 header.container-fluid {
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   width: 100vw;
@@ -46,6 +47,7 @@ header.container-fluid {
 
 .header-top img {
   padding: 10px 0;
+  width: 392px;
 }
 
 .header-bottom {
@@ -99,16 +101,16 @@ div.left, div.right, div.middle {
   height: auto;
 }
 
-div.left {
+.col1 {
   width: 30%;
 }
 
-div.middle {
+.col2 {
   width: 40%;
   padding: 0 15px;
 }
 
-div.right {
+.col3 {
   width: 30%;
 }
 
@@ -365,7 +367,38 @@ footer img.footer-icon {
 }
 
 @media screen and (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .col1 {
+    width: 42%;
+  }
+
+  .col2 {
+    width: 52%;
+  }
+
+  .col3 {
+    width: 100%;
+  }
+
+  .header-top {
+    justify-content: left;
+  }
+  
+  .header-top img {
+    width: 200px;
+    padding: 15px;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    /* display: block; */
+    right: 10px;
+    top: 10px;
+  }
+
 }
