@@ -23,6 +23,11 @@ body.container-fluid {
   margin: 0 auto;
 }
 
+.image {
+  display: flex;
+  align-items: center;
+}
+
 /* HEADER AND NAV */
 
 header {
@@ -256,6 +261,27 @@ article h2 {
   font-family: Arial,Helvetica,sans-serif;
   text-transform: none;
   font-weight: 400;
+}
+
+/* featured stories */
+
+.featured-stories .image {
+  height: 210px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.featured-stories h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Roboto Condensed",sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.featured-stories .summary {
+  font-size: 15px;
+  line-height: 20px;
 }
 
 /* FOOTER */
