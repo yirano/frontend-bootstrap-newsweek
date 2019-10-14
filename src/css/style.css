@@ -330,15 +330,6 @@ article h2 {
 }
 
 /* In the Magazine */
-.n-icon {
-  content: '';
-  width: 80px;
-  height: 80px;
-  background-image: url("../../imgs/n-icon.png");
-  background-size: auto;
-  background-repeat: no-repeat;
-  z-index: 999;
-}
 
 .section .card {
   background-color: #fff;
