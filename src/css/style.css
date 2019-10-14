@@ -331,6 +331,10 @@ article h2 {
 
 /* In the Magazine */
 
+.section {
+  margin: 0 auto;
+}
+
 .section .card {
   background-color: #fff;
 }
