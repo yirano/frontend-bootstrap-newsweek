@@ -373,6 +373,10 @@ article h2 {
   margin-right: 5px;
 }
 
+.section article img {
+  width: 100%;
+}
+
 .card-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
@@ -382,7 +386,7 @@ article h2 {
 
 .card-img-top {
   height: 260px;
-  width: auto;
+  width: fit-content;
   margin-bottom: 15px;
   overflow: hidden;
 }
