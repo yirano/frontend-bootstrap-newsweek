@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,600,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,8 +14,8 @@
   <title>[PROJECT] - Newsweek</title>
 </head>
 
-<body class="container-fluid">
-  <header class="container-fluid">
+<body>
+  <header class="container">
     <div class="header-top">
       <a href="#"><img src="../imgs/main-logo.png" alt="Newsweek logo" /></a>
     </div>
@@ -24,10 +24,16 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" checked>
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="tags">
+        <div class="date">Wed, Oct 16, 2019</div>
+        <div class="tag-buttons">
+          <button id="signin-btn" class="signin">Sign In</button>
+          <button id="subscribe-btn" class="subscribe">Subscribe &gt;</button>
+        </div>
+      </div>
       <nav class="navbar navbar-expand-lg" id="navbarSupportedContent">
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
             <li class="nav-item"><a class="nav-link" href="#">World</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
@@ -40,7 +46,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
             <li>
               <form class="form-inline my-lg-0">
-                <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search" style="width: 90px; padding: 0; margin-left: 20px;">
               </form>
             </li>
           </ul>
