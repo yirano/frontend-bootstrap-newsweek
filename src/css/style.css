@@ -73,7 +73,7 @@ header.container {
   border-bottom: 1px solid rgb(230, 230, 230);
 }
 
-.tags {
+.header-tag {
   position: absolute;
   top: 15px;
   width: 100%;
@@ -504,7 +504,7 @@ footer img.footer-icon {
   }
   
   .header-top img {
-    width: 200px;
+    width: 160px;
     padding: 15px;
   }
 
@@ -512,10 +512,38 @@ footer img.footer-icon {
     position: absolute;
     right: 10px;
     top: 10px;
+    outline: none;
+  }
+
+  .header-bottom button {
+    outline: none;
+  }
+
+  .h-menu {
+    content: '';
+    background: url('../../imgs/h-menu.png') no-repeat;
+    background-size: 38px;
   }
 
   .sponsored-insight {
     margin: 0 auto;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .header-top {
+    height: 50px;
+  }
+
+  .tag-buttons {
+    top: 0px;
+    right: 90px;
+  }
+
+  .header-bottom::before {
+    display: none;
   }
 
 }
